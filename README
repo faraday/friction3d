@@ -1,0 +1,22 @@
+Friction3D
+
+Dependencies:
+pygame
+pyOpenGL
+PyODE
+
+Install these dependencies in Ubuntu with the command:
+sudo apt-get install python-pygame python-opengl
+
+Download latest PyODE from:
+http://sourceforge.net/projects/pyode/
+
+Apparently, PyODE depends on Pyrex, so install it first:
+sudo apt-get install python-pyrex
+
+Unzip downloaded package and install by executing this command in PyODE folder:
+python setup.py build
+python setup.py install
+
+
+Friction3D should work now when you execute "friction3d.py" script.
